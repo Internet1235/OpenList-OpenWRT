@@ -3,6 +3,7 @@ name: Build Packages
 on:
   repository_dispatch:
     types: [release-build]
+  push:
 
 permissions:
   contents: write
